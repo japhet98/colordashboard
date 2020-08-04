@@ -9,13 +9,12 @@ class CenterSection extends Component {
     return (
       <div className="center-section">
         <h1>New Colors</h1>
+
         <div>
-          <div className=" text-center">
-            <Navigation />
-            <SearchColor />
-            <MainPallete />
-            <LovedColors />
-          </div>
+          <Navigation />
+          <SearchColor />
+          <MainPallete />
+          <LovedColors />
         </div>
       </div>
     );

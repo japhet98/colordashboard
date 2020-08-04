@@ -8,17 +8,12 @@ class Hero extends Component {
         style={{
           backgroundColor: "#3d0099",
           width: "100%",
-          marginRight: "0px",
-
           borderRadius: "16px",
-          // marginLeft: "-40px",
-          marginBottom: "0px",
         }}
       >
-        <div className="text-center container">
+        <div className="row mx-auto">
           <div
             style={{
-              float: "left",
               color: "white",
             }}
           >
@@ -27,7 +22,7 @@ class Hero extends Component {
               <p>Some paragraph content</p>
             </small>
           </div>
-          <div style={{ float: "right", opacity: "0.9", marginRight: "-20px" }}>
+          <div>
             <div className="container">
               <span
                 className="rounded-circle"
@@ -38,7 +33,6 @@ class Hero extends Component {
                   display: "inline-block",
                 }}
               >
-                {" "}
                 <span
                   className="rounded-circle"
                   style={{
@@ -48,7 +42,7 @@ class Hero extends Component {
                     marginTop: "20px",
                     display: "inline-block",
                   }}
-                ></span>{" "}
+                ></span>
               </span>
             </div>
           </div>

@@ -6,7 +6,7 @@ class MainHero extends Component {
   render() {
     return (
       <>
-        <div className="row" style={{ marginTop: "20px" }}>
+        <div className="row" style={{ marginTop: "40px" }}>
           <div className="col-lg-6 col-sm-6">
             <Hero />
           </div>
@@ -19,6 +19,7 @@ class MainHero extends Component {
             style={{
               textDecoration: "none",
               color: "#3d0099",
+              marginTop: "60px",
             }}
           >
             <small> See all{" >"}</small>

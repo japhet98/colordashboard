@@ -8,18 +8,16 @@ class BodyRight extends Component {
           className="card card-body mx-auto"
           style={{
             backgroundColor: "white",
-            width: "100%",
-            marginLeft: "0px",
+
             border: "none",
-            marginBottom: "0px",
           }}
         >
-          <div>
-            <div style={{ float: "left" }}>
+          <div className="row">
+            <div>
               <h5>Hero Concept</h5>
               <p>Something Color</p>
             </div>
-            <div style={{ float: "right", opacity: "0.7" }} className="s-only">
+            <div>
               <div className="container">
                 <span
                   className="rounded-circle"
@@ -27,9 +25,7 @@ class BodyRight extends Component {
                     backgroundColor: "lightblue",
                     width: "40px",
                     height: "40px",
-
                     display: "inline-block",
-                    //   marginTop: "-10px",
                   }}
                 >
                   <span
@@ -38,9 +34,7 @@ class BodyRight extends Component {
                       backgroundColor: "blue",
                       width: "40px",
                       height: "40px",
-                      // marginLeft: "3px",
                       marginTop: "20px",
-                      // boxShadow: `2px 5px 7px 2px lightgray`,
                       display: "inline-block",
                     }}
                   ></span>
@@ -48,7 +42,7 @@ class BodyRight extends Component {
               </div>
             </div>
           </div>
-        </div>{" "}
+        </div>
       </div>
     );
   }
