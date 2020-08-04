@@ -10,7 +10,7 @@ class Dashboard extends Component {
         <div className="row mx-auto block" style={{ width: "100%" }}>
           <div className="col-lg-2 col-sm-2">
             <LeftSection />
-            <hr className="d-lg-none" style={{ backgroundColor: "blue" }} />
+            {/* <hr className="d-lg-none" style={{ backgroundColor: "blue" }} /> */}
           </div>
 
           <div className="col-lg-6 col-sm-6">

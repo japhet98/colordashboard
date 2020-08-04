@@ -1,11 +1,177 @@
-body {
+/* body {
     background-color: #f0f5f5;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     padding: 2%;
     padding-top: 5px;
     padding-bottom: 3px;
     margin: 0px;
-    align-content: center;
+} */
+
+html,
+body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+/* ------------------------------------------------------------------------------------------- */
+
+
+/* Extra small devices (phones, 600px and down) */
+
+
+/* ------------------------------------------------------------------------------------------------ */
+
+@media only screen and (max-width:600px) {
+    /* Style for Center Compoent Main Page */
+    .mainpage {
+        margin-top: 270px;
+    }
+    /* End of Style for Center Component Main Page */
+    /* ---------------------Style for List in Center TopLeft Component */
+    .list-item {
+        margin-left: 140px;
+        margin-right: -10px;
+        padding: 3px;
+        width: 20%;
+    }
+    .list-items-body {
+        margin-top: -50px;
+        margin-bottom: 20px;
+    }
+    .list-item-circle {
+        margin-left: -160px;
+        margin-top: -20px;
+    }
+    /* End of Style for Center Topleft Component */
+    /* ---------------------------------------------- */
+    /* Style For Image in Center Component  */
+    .telescope {
+        width: 30%;
+        margin-left: 150px;
+    }
+    /* End of Style for Telescope (Image Component) */
+    /* ---------------------------------------------------- */
+    /* Style for Base panel in Center Component */
+    /* Main Base Panel */
+    .basepanel {
+        width: 20%;
+    }
+    /* End of Main Base Panel */
+    /* ------------------------------------------------------ */
+    /* Sub Base Panel (Left) */
+    .basepanel-left {
+        float: left;
+        align-self: flex-start;
+        margin-left: 65px;
+    }
+    /* End of Sub Base Panel (Left) */
+    /* ----------------------------------------------------- */
+    /* Sub Base Panel (Right) */
+    .basepanel-right {
+        float: right;
+        align-self: flex-end;
+        margin-right: 45px;
+    }
+    /* End of Sub Base Panel (Right) */
+    /* ----------------------------------------------------- */
+    /* End of Style for Base Panel */
+    /* ------------------------------------------------------- */
+    /* Icon Toggle on Sub page at Center Component */
+    .icon-toggle {
+        margin-top: 20px;
+        margin-right: -210px;
+    }
+    /* End of Icon Toggle */
+    /* ------------------------------------------------------------------------------------------- */
+    /* Style for Adjustment Components in Ceter Component */
+    .adjust {
+        margin-top: 20px;
+        padding-left: 60px;
+    }
+    .adjust-item {
+        padding-right: 30px;
+    }
+    /* End of Adjustment Component */
+    /* ----------------------------------------------------------------------------------------- */
+    /* Style for Tab Item in TabList in Center Component */
+    .tab-items {
+        margin-top: 5px;
+        padding-left: 40px;
+    }
+    .tab-item {
+        background-color: lightgray;
+        text-decoration: none;
+        border-color: lightgray;
+        margin-right: 10px;
+        border-radius: 7px;
+        width: 20%;
+        padding-left: 5px;
+    }
+    /* End of style for Tab Item (TabList) */
+    /* --------------------------------------------------------------- */
+    /* Style for TopBar in Center Component  */
+    .topbar {
+        margin-top: 10px;
+        padding-left: 20px;
+        margin-bottom: 10px;
+    }
+    .topbar-item {
+        padding-left: 30px;
+    }
+    /* End of Style for TopBar in Center Component */
+    /* -------------------------------------------------------- */
+    /* Style for Left Component */
+    .left-section {
+        margin-top: -10px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 30px;
+    }
+    .center-section h1 {
+        text-align: center;
+    }
+    /* End of Left Component */
+    /* ----------------------------------------- */
+    /* Style for Right Section Component */
+    .right-section {
+        padding-top: 60px;
+        /* margin-left: -50px; */
+        background-color: #fafafa;
+        border-radius: 30px;
+        margin-top: 10px;
+        margin-bottom: 50px;
+        box-shadow: 2px 5px 7px 2px lightgray;
+        border-top-right-radius: 15px;
+    }
+    /* End of Right Section Component */
+    /* ----------------------------------------- */
+    /* Style for Hero at Center Section */
+    .see-all {
+        text-decoration: none;
+        margin-left: 120px;
+        width: 30%;
+    }
+    /* End of Hero  */
+    /* Color Pallete Section in Center Section */
+    .color-section {
+        margin-right: 10px;
+        opacity: 0.95;
+        /* margin-top: 5px; */
+    }
+    .collor-pallettes {
+        margin-top: 30px;
+    }
+    /* End of Color Pallete */
 }
 
 .list-item {
@@ -192,158 +358,6 @@ body {
     .color-section {
         margin-right: 20px;
         opacity: 0.95;
-    }
-    /* End of Color Pallete */
-}
-
-
-/* ------------------------------------------------------------------------------------------- */
-
-
-/* Extra small devices (phones, 600px and down) */
-
-
-/* ------------------------------------------------------------------------------------------------ */
-
-@media only screen and (max-width:600px) {
-    /* Style for Center Compoent Main Page */
-    .mainpage {
-        margin-top: 270px;
-    }
-    /* End of Style for Center Component Main Page */
-    /* ---------------------Style for List in Center TopLeft Component */
-    .list-item {
-        margin-left: 140px;
-        margin-right: -10px;
-        padding: 3px;
-        width: 20%;
-    }
-    .list-items-body {
-        margin-top: -50px;
-        margin-bottom: 20px;
-    }
-    .list-item-circle {
-        margin-left: -160px;
-        margin-top: -20px;
-    }
-    /* End of Style for Center Topleft Component */
-    /* ---------------------------------------------- */
-    /* Style For Image in Center Component  */
-    .telescope {
-        width: 30%;
-        margin-left: 150px;
-    }
-    /* End of Style for Telescope (Image Component) */
-    /* ---------------------------------------------------- */
-    /* Style for Base panel in Center Component */
-    /* Main Base Panel */
-    .basepanel {
-        width: 20%;
-    }
-    /* End of Main Base Panel */
-    /* ------------------------------------------------------ */
-    /* Sub Base Panel (Left) */
-    .basepanel-left {
-        float: left;
-        align-self: flex-start;
-        margin-left: 65px;
-    }
-    /* End of Sub Base Panel (Left) */
-    /* ----------------------------------------------------- */
-    /* Sub Base Panel (Right) */
-    .basepanel-right {
-        float: right;
-        align-self: flex-end;
-        margin-right: 45px;
-    }
-    /* End of Sub Base Panel (Right) */
-    /* ----------------------------------------------------- */
-    /* End of Style for Base Panel */
-    /* ------------------------------------------------------- */
-    /* Icon Toggle on Sub page at Center Component */
-    .icon-toggle {
-        margin-top: 20px;
-        margin-right: -210px;
-    }
-    /* End of Icon Toggle */
-    /* ------------------------------------------------------------------------------------------- */
-    /* Style for Adjustment Components in Ceter Component */
-    .adjust {
-        margin-top: 20px;
-        padding-left: 60px;
-    }
-    .adjust-item {
-        padding-right: 30px;
-    }
-    /* End of Adjustment Component */
-    /* ----------------------------------------------------------------------------------------- */
-    /* Style for Tab Item in TabList in Center Component */
-    .tab-items {
-        margin-top: 5px;
-        padding-left: 40px;
-    }
-    .tab-item {
-        background-color: lightgray;
-        text-decoration: none;
-        border-color: lightgray;
-        margin-right: 10px;
-        border-radius: 7px;
-        width: 20%;
-        padding-left: 5px;
-    }
-    /* End of style for Tab Item (TabList) */
-    /* --------------------------------------------------------------- */
-    /* Style for TopBar in Center Component  */
-    .topbar {
-        margin-top: 10px;
-        padding-left: 20px;
-        margin-bottom: 10px;
-    }
-    .topbar-item {
-        padding-left: 30px;
-    }
-    /* End of Style for TopBar in Center Component */
-    /* -------------------------------------------------------- */
-    /* Style for Left Component */
-    .left-section {
-        margin-top: -10px;
-        padding-left: 50px;
-        padding-right: 50px;
-        padding-bottom: 30px;
-    }
-    .center-section h1 {
-        text-align: center;
-    }
-    /* End of Left Component */
-    /* ----------------------------------------- */
-    /* Style for Right Section Component */
-    .right-section {
-        padding-top: 60px;
-        /* margin-left: -50px; */
-        background-color: #fafafa;
-        border-radius: 30px;
-        margin-top: 10px;
-        margin-bottom: 50px;
-        box-shadow: 2px 5px 7px 2px lightgray;
-        border-top-right-radius: 15px;
-    }
-    /* End of Right Section Component */
-    /* ----------------------------------------- */
-    /* Style for Hero at Center Section */
-    .see-all {
-        text-decoration: none;
-        margin-left: 120px;
-        width: 30%;
-    }
-    /* End of Hero  */
-    /* Color Pallete Section in Center Section */
-    .color-section {
-        margin-right: 10px;
-        opacity: 0.95;
-        /* margin-top: 5px; */
-    }
-    .collor-pallettes {
-        margin-top: 30px;
     }
     /* End of Color Pallete */
 }
@@ -660,11 +674,11 @@ body {
     /* Style for Center Section Component */
     .center-section {
         padding-top: 50px;
-        padding-bottom: 40px;
+        padding-bottom: 5px;
         padding-right: 50px;
         padding-left: 50px;
         margin-left: 50px;
-        margin-bottom: 10px;
+        margin-bottom: 5px;
         border-top-right-radius: 0px;
         background-color: #e6e6e6;
         box-shadow: 12px 5px 7px 2px lightgray;
@@ -724,14 +738,15 @@ body {
 |Container Layout wrapping main app container (Layout)
 */
 
-.container-layout {
+
+/* .container-layout {
     margin-top: 0px;
     background-color: #fff;
     border-radius: 30px;
     width: 100%;
     align-content: space-around;
     align-self: center;
-}
+} */
 
 .section-component {
     margin-top: 20px;

@@ -17,9 +17,6 @@ class MainHero extends Component {
             href="/"
             className="see-all"
             style={{
-              // float: "left",
-              // marginTop: "30px",
-              // marginLeft: "20px",
               textDecoration: "none",
               color: "#3d0099",
             }}

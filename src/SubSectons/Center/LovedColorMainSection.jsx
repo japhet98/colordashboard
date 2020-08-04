@@ -13,9 +13,9 @@ class LovedColors extends Component {
               borderTopLeftRadius: "16px",
               borderTopRightRadius: "16px",
               boxShadow: "0px 0px 20px 1px lightgray",
-              //   marginBottom: "-40px",
+              // marginBottom: "-30px",
               //   marginBottom: "10px",
-              //   paddingBottom: "0px",
+              paddingBottom: "50px",
             }}
           >
             <TopBar />
