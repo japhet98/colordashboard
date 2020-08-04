@@ -656,7 +656,7 @@ body {
         margin-top: -132px;
         margin-bottom: 20px;
         position: absolute;
-        left: 200px
+        left: 195px
     }
     /* .mainpage {
         margin-bottom: -100px;
@@ -748,7 +748,7 @@ body {
     /* width: 100%; */
     align-content: space-around;
     align-self: center;
-    margin-right: 10px;
+    /* margin-right: 10px; */
 }
 
 .section-component {
