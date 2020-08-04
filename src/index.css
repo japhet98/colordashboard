@@ -655,9 +655,12 @@ body {
         /* margin-left: 119px; */
         margin-top: -112px;
         margin-bottom: 20px;
-        position: relative;
+        position: absolute;
         left: 247px
     }
+    /* .mainpage {
+        margin-bottom: -100px;
+    } */
     /* End Style for Circle Segment */
     /* ----------------------------------------- */
     /* Style for Right Section Component */

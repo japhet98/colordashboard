@@ -31,9 +31,9 @@ class MainPage extends Component {
     let i = 1;
     return (
       <div className="container mainpage">
-        <SideCircle />
-        <div className="row" style={{ marginTop: "-260px" }}>
+        <div className="row">
           <div className="col-lg-9 col-sm 9">
+            <SideCircle />
             {currentPosts &&
               currentPosts.map((e) => <span key={i++}>{e}</span>)}
           </div>
