@@ -4,6 +4,7 @@ import StaticPage from "./StaticPage";
 // import Pagination from "./PageSection/Paginate";
 import { ArrowLeft, ArrowRight } from "../../Layouts/SvgFiles";
 import Pagination from "../Center/Pallete/Pagination";
+import SideCircle from "./SideCircle";
 
 class MainPage extends Component {
   constructor(props) {
@@ -30,6 +31,7 @@ class MainPage extends Component {
     let i = 1;
     return (
       <div className="container mainpage">
+        <SideCircle />
         <div className="row" style={{ marginTop: "-260px" }}>
           <div className="col-lg-9 col-sm 9">
             {currentPosts &&

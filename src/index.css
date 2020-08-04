@@ -1,13 +1,14 @@
-/* body {
+body {
     background-color: #f0f5f5;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    padding: 2%;
-    padding-top: 5px;
-    padding-bottom: 3px;
-    margin: 0px;
-} */
+    display: table-cell;
+    vertical-align: middle;
+    display: table;
+    margin: auto;
+}
 
-html,
+
+/* html,
 body {
     height: 100%;
 }
@@ -20,7 +21,7 @@ html {
 body {
     display: table-cell;
     vertical-align: middle;
-}
+} */
 
 
 /* ------------------------------------------------------------------------------------------- */
@@ -655,7 +656,7 @@ body {
         margin-top: -112px;
         margin-bottom: 20px;
         position: relative;
-        left: 239px
+        left: 247px
     }
     /* End Style for Circle Segment */
     /* ----------------------------------------- */
@@ -738,15 +739,14 @@ body {
 |Container Layout wrapping main app container (Layout)
 */
 
-
-/* .container-layout {
-    margin-top: 0px;
+.container-layout {
+    /* margin: 0px; */
     background-color: #fff;
     border-radius: 30px;
     width: 100%;
     align-content: space-around;
     align-self: center;
-} */
+}
 
 .section-component {
     margin-top: 20px;
