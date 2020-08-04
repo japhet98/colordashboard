@@ -22,7 +22,7 @@ class MainHero extends Component {
               marginTop: "60px",
             }}
           >
-            <small> See all{" >"}</small>
+            <small> See All{" >"}</small>
           </a>
         </div>
       </>
