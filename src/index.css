@@ -653,10 +653,10 @@ body {
         border-bottom-left-radius: 350px;
         border-bottom: 0px;
         /* margin-left: 119px; */
-        margin-top: -112px;
+        margin-top: -132px;
         margin-bottom: 20px;
         position: absolute;
-        left: 190px
+        left: 200px
     }
     /* .mainpage {
         margin-bottom: -100px;
@@ -743,13 +743,12 @@ body {
 */
 
 .container-layout {
-    /* margin: 0px; */
     background-color: #fff;
     border-radius: 30px;
-    width: 100%;
+    /* width: 100%; */
     align-content: space-around;
     align-self: center;
-    margin-right: 0px;
+    margin-right: 10px;
 }
 
 .section-component {
