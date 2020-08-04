@@ -39,7 +39,7 @@ class MainPage extends Component {
             <StaticPage />
           </div>
           <Pagination
-            style={{ marginBottom: "5px", marginTop: "5px" }}
+            style={{ marginBottom: "-8px", marginTop: "5px" }}
             adonClass=" text-center"
             postsPerPage={this.state.postsPerPage}
             totalPosts={pages ? pages.length : 0}

@@ -7,8 +7,8 @@ class RightSection extends Component {
     return (
       <div className="right-section">
         <SideCircle />
-
         {/* <div className="clearfix"></div> */}
+
         <MainPage />
       </div>
     );
