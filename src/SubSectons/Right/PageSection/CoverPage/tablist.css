@@ -1,0 +1,74 @@
+/* For Small Devices */
+
+@media only screen and (max-width:600px) {
+    .tab-items {
+        margin-top: 5px;
+        padding-left: 40px;
+    }
+    .tab-item {
+        background-color: lightgray;
+        text-decoration: none;
+        border-color: lightgray;
+        margin-right: 10px;
+        border-radius: 7px;
+        width: 20%;
+        padding-left: 5px;
+    }
+}
+
+
+/* Tablet and Medium Devices */
+
+@media only screen and (min-width: 768px) {
+    .tab-items {
+        margin-top: 5px;
+        padding-left: 60px;
+    }
+    .tab-item {
+        background-color: lightgray;
+        text-decoration: none;
+        border-color: lightgray;
+        margin-right: 10px;
+        border-radius: 7px;
+        width: 20%;
+        padding-left: 5px;
+    }
+}
+
+
+/* LabTop and Desktop Devices */
+
+@media only screen and (min-width: 992px) {
+    .tab-items {
+        margin-top: 5px;
+        padding-left: 40px;
+    }
+    .tab-item {
+        background-color: lightgray;
+        text-decoration: none;
+        border-color: lightgray;
+        margin-right: 10px;
+        border-radius: 7px;
+        width: 20%;
+        padding-left: 5px;
+    }
+}
+
+
+/* Large Laptops and Desktop */
+
+@media only screen and (min-width: 1200px) {
+    .tab-items {
+        margin-top: 5px;
+        padding-left: 40px;
+    }
+    .tab-item {
+        background-color: lightgray;
+        text-decoration: none;
+        border-color: lightgray;
+        margin-right: 10px;
+        border-radius: 7px;
+        width: 20%;
+        padding-left: 5px;
+    }
+}

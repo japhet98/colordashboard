@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import "./color.css";
 class PalleteColor extends Component {
   render() {
     return (

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Search } from "../../../../Layouts/SvgFiles";
-
+import "./search.css";
 class SearchPage extends Component {
   render() {
     return (

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Toggle } from "../../../../../Layouts/SvgFiles";
-
+import "./toggle.css";
 class ToggleButton extends Component {
   render() {
     return (

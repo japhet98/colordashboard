@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Camera, Search } from "../../Layouts/SvgFiles";
-
+import "./Search/index.css";
 class SearchColor extends Component {
   render() {
     return (

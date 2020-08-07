@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import TopBar from "./Pallete/Topnav";
 import Palletes from "./Pallete/Palletes";
-
+import "./PalleteMain/index.css";
 class MainPallete extends Component {
   render() {
     return (

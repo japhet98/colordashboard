@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { BarChart } from "../../../../../Layouts/SvgFiles";
-
+import "./baseright.css";
 class BaseRightPanel extends Component {
   render() {
     return (

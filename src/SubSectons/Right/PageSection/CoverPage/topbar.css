@@ -1,0 +1,54 @@
+/* For Small Devices */
+
+@media only screen and (max-width:600px) {
+    .topbar {
+        margin-top: 10px;
+        padding-left: 20px;
+        margin-bottom: 10px;
+    }
+    .topbar-item {
+        padding-left: 30px;
+    }
+}
+
+
+/* Tablet and Medium Devices */
+
+@media only screen and (min-width: 768px) {
+    .topbar {
+        margin-top: 10px;
+        padding-left: 90px;
+        margin-bottom: 20px;
+    }
+    .topbar-item {
+        padding-left: 70px;
+    }
+}
+
+
+/* LabTop and Desktop Devices */
+
+@media only screen and (min-width: 992px) {
+    .topbar {
+        margin-top: 10px;
+        padding-left: 30px;
+        margin-bottom: 10px;
+    }
+    .topbar-item {
+        padding-left: 30px;
+    }
+}
+
+
+/* Large Laptops and Desktop */
+
+@media only screen and (min-width: 1200px) {
+    .topbar {
+        margin-top: 10px;
+        padding-left: 30px;
+        margin-bottom: 10px;
+    }
+    .topbar-item {
+        padding-left: 30px;
+    }
+}

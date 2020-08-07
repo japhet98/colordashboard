@@ -1,0 +1,166 @@
+/* For Small Devices */
+
+@media only screen and (max-width:600px) {
+    .list-items-body {
+        margin-top: -50px;
+        margin-bottom: 20px;
+    }
+    .list-item {
+        margin-left: 140px;
+        margin-right: -10px;
+        padding: 3px;
+        width: 20%;
+        margin-bottom: 10px;
+        background-color: lightgray;
+    }
+    .list-item-circle {
+        margin-left: -160px;
+        margin-top: -20px;
+    }
+    .telescope {
+        width: 30%;
+        margin-left: 150px;
+    }
+    .basepanel {
+        width: 20%;
+    }
+    .basepanel-left {
+        float: left;
+        align-self: flex-start;
+        margin-left: 65px;
+    }
+    /* End of Sub Base Panel (Left) */
+    /* ----------------------------------------------------- */
+    /* Sub Base Panel (Right) */
+    .basepanel-right {
+        float: right;
+        align-self: flex-end;
+        margin-right: 45px;
+    }
+}
+
+
+/* Tablet and Medium Devices */
+
+@media only screen and (min-width: 768px) {
+    .list-item {
+        margin-left: -80px;
+        margin-right: -10px;
+        padding: 5px;
+        width: 40%;
+        margin-bottom: 20px;
+        background-color: lightgray;
+    }
+    .list-items-body {
+        margin-top: -10px;
+        margin-bottom: 20px;
+    }
+    .telescope {
+        width: 50%;
+        margin-left: 310px;
+        height: 100%
+    }
+    .basepanel {
+        width: 20%;
+    }
+    /* End of Main Base Panel */
+    /* ------------------------------------------------------ */
+    /* Sub Base Panel (Left) */
+    .basepanel-left {
+        float: left;
+        align-self: flex-start;
+        margin-left: 95px;
+    }
+    /* End of Sub Base Panel (Left) */
+    /* ----------------------------------------------------- */
+    /* Sub Base Panel (Right) */
+    .basepanel-right {
+        float: right;
+        align-self: flex-end;
+        margin-right: 10px;
+    }
+}
+
+
+/* LabTop and Desktop Devices */
+
+@media only screen and (min-width: 992px) {
+    .list-item {
+        margin-left: -80px;
+        margin-right: -10px;
+        padding: 5px;
+        width: 40%;
+        margin-bottom: 10px;
+        background-color: lightgray;
+    }
+    .list-items-body {
+        margin-top: -10px;
+        margin-bottom: 20px;
+    }
+    .telescope {
+        width: 40%;
+        margin-left: 230px;
+        height: 100%
+    }
+    .basepanel {
+        width: 20%;
+    }
+    /* End of Main Base Panel */
+    /* ------------------------------------------------------ */
+    /* Sub Base Panel (Left) */
+    .basepanel-left {
+        float: left;
+        /* align-self: flex-start; */
+        margin-left: 65px;
+    }
+    /* End of Sub Base Panel (Left) */
+    /* ----------------------------------------------------- */
+    /* Sub Base Panel (Right) */
+    .basepanel-right {
+        float: right;
+        align-self: flex-end;
+        margin-right: 25px;
+    }
+}
+
+
+/* Large Laptops and Desktop */
+
+@media only screen and (min-width: 1200px) {
+    .list-item {
+        margin-left: -80px;
+        margin-right: -10px;
+        padding: 5px;
+        width: 40%;
+        margin-bottom: 10px;
+        background-color: lightgray;
+    }
+    .list-items-body {
+        margin-top: -10px;
+        margin-bottom: 20px;
+    }
+    .telescope {
+        width: 40%;
+        margin-left: 230px;
+        height: 100%
+    }
+    .basepanel {
+        width: 20%;
+    }
+    /* End of Main Base Panel */
+    /* ------------------------------------------------------ */
+    /* Sub Base Panel (Left) */
+    .basepanel-left {
+        float: left;
+        /* align-self: flex-start; */
+        margin-left: 65px;
+    }
+    /* End of Sub Base Panel (Left) */
+    /* ----------------------------------------------------- */
+    /* Sub Base Panel (Right) */
+    .basepanel-right {
+        float: right;
+        align-self: flex-end;
+        margin-right: 25px;
+    }
+}

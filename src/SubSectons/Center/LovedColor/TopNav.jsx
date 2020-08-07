@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import "./topnav.css";
 class TopBar extends Component {
   render() {
     return (

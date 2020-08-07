@@ -3,7 +3,7 @@ import TopBar from "./CoverPage/TopBar";
 import SearchPage from "./CoverPage/Search";
 import TabList from "./CoverPage/TabList";
 import SubCoverPage from "./CoverPage/SubPage";
-
+import "./pagecover.css";
 class PageCover extends Component {
   render() {
     return (

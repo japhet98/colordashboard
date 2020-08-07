@@ -1,12 +1,9 @@
 import React, { Component } from "react";
-
+import "./topnav.css";
 class TopBar extends Component {
   render() {
     return (
-      <div
-        className="container"
-        style={{ marginLeft: "20px", marginTop: "-20px" }}
-      >
+      <div className="container pallet-nav" style={{ marginTop: "-20px" }}>
         <nav className="navbar navbar-expand-lg navbar-light text-center">
           <button
             className="navbar-toggler"
@@ -19,9 +16,9 @@ class TopBar extends Component {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse pr-5" id="navbarNav1">
+          <div className="collapse navbar-collapse " id="navbarNav1">
             <ul className="nav nav-pills navbar navbar-expand-lg navbar-light text-center">
-              <li className="nav-item pr-5">
+              <li className="nav-item pr-4">
                 <a
                   href="/"
                   className="nav-link "
@@ -31,29 +28,18 @@ class TopBar extends Component {
                 </a>
               </li>
 
-              <li className="nav-item pr-4">
+              <li className="nav-item ">
                 <a href="/" className="nav-link low-opacity">
                   Toggle::
                 </a>
               </li>
 
-              <li className="nav-item  pr-4">
-                {/* <a href="/" className="nav-link">
-              Disabled
-            </a> */}
-              </li>
-              <li className="nav-item  pr-4">
+              <li className="nav-item  ">
                 <a href="/" className="nav-link low-opacity">
                   Disabled
                 </a>
               </li>
-              <li className="nav-item pr-4">
-                {/* <a href="/" className="nav-link">
-              Disabled
-            </a> */}
-              </li>
 
-              {/* <li className="nav-item pr-5"> */}
               <button
                 className="btn nav-item s-only low-opacity"
                 type="button"

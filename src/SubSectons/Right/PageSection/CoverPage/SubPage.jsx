@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ToggleButton from "./SubCoverPage/Toggle";
 import TopLeftPanel from "./SubCoverPage/TopLeft";
-
+import "./subpage.css";
 class SubCoverPage extends Component {
   render() {
     return (

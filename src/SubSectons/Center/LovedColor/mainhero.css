@@ -1,0 +1,39 @@
+/* For Small Devices */
+
+@media only screen and (max-width:600px) {
+    .see-all {
+        text-decoration: none;
+        margin-left: 120px;
+        width: 30%;
+    }
+}
+
+
+/* Tablet and Medium Devices */
+
+@media only screen and (min-width: 768px) {}
+
+
+/* LabTop and Desktop Devices */
+
+@media only screen and (min-width: 992px) {
+    .see-all {
+        float: left;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+}
+
+
+/* Large Laptops and Desktop */
+
+@media only screen and (min-width: 1200px) {
+    .hero-center {
+        margin-left: -40px;
+    }
+    .see-all {
+        float: left;
+        margin-top: 5px;
+        margin-left: 20px;
+    }
+}

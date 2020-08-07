@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import PageCover from "./PageSection/PageCover";
 import AdjustPage from "./PageSection/AdjustPage";
-
+import "./fullpage.css";
 class FullPage extends Component {
   render() {
     return (

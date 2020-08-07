@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Button from "./Button";
+import "./tablist.css";
 
 class TabList extends Component {
   render() {

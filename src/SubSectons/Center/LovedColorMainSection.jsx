@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import TopBar from "./LovedColor/TopNav";
 import MainHero from "./LovedColor/MainHeroBody";
+import "./LovedColorMain/index.css";
 
 class LovedColors extends Component {
   render() {

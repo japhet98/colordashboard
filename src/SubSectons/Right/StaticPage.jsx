@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import "./staticpage.css";
 class StaticPage extends Component {
   render() {
     return (

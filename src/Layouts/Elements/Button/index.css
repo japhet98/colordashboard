@@ -1,0 +1,41 @@
+/* For Small Devices */
+
+@media only screen and (max-width:600px) {
+    .ele-button {
+        width: 50%;
+        padding: 10px;
+        border-radius: 22px;
+        box-shadow: 1px 3px 6px 1px lightblue;
+    }
+}
+
+
+/* Tablet and Medium Devices */
+
+@media only screen and (min-width: 768px) {
+    .ele-button {
+        width: 50%;
+        padding: 10px;
+        border-radius: 22px;
+        box-shadow: 1px 3px 6px 1px lightblue;
+    }
+}
+
+
+/* LabTop and Desktop Devices */
+
+@media only screen and (min-width: 992px) {
+    /* .ele-button {} */
+}
+
+
+/* Large Laptops and Desktop */
+
+@media only screen and (min-width: 1200px) {
+    .ele-button {
+        width: 50%;
+        padding: 10px;
+        border-radius: 22px;
+        box-shadow: 1px 3px 6px 1px lightblue;
+    }
+}

@@ -1,0 +1,25 @@
+/* For Small Devices */
+
+@media only screen and (max-width:600px) {}
+
+
+/* Tablet and Medium Devices */
+
+@media only screen and (min-width: 768px) {}
+
+
+/* LabTop and Desktop Devices */
+
+@media only screen and (min-width: 992px) {
+    /* Style for Hero at Center Section */
+    .hero-center {
+        margin-left: -40px;
+    }
+    /* End of Hero  */
+}
+
+@media only screen and (min-width: 1200px) {
+    .hero-center {
+        margin-left: -40px;
+    }
+}

@@ -1,0 +1,37 @@
+/* For Small Devices */
+
+@media only screen and (max-width:600px) {}
+
+
+/* Tablet and Medium Devices */
+
+@media only screen and (min-width: 768px) {
+    .tablet-mode .downloadapp-container {
+        margin-left: 20px;
+        margin-bottom: -30px;
+    }
+    .tablet-mode .downloadapp-container .well {
+        width: 43rem
+    }
+    .tablet-mode .downloadapp-text {
+        color: #1f004d;
+        font-size: 17px;
+    }
+    .tablet-mode .downloadapp-button {
+        width: 30%;
+        margin-left: 200px;
+        background-color: #4700b3;
+        border-color: #4700b3;
+        border-radius: 13px;
+    }
+}
+
+
+/* LabTop and Desktop Devices */
+
+@media only screen and (min-width: 992px) {}
+
+
+/* Large Laptops and Desktop */
+
+@media only screen and (min-width: 1200px) {}

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import "./sidecircle.css";
 class SideCircle extends Component {
   render() {
     return (

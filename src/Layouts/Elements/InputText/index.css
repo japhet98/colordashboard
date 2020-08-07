@@ -1,0 +1,53 @@
+/* For Small Devices */
+
+@media only screen and (max-width:600px) {
+    .full-textinput {
+        margin-top: 20px;
+    }
+    /* .label-textinput {} */
+    .ele-textinput {
+        border-radius: 16px;
+        box-shadow: 1px 3px 4px 2px lightblue;
+    }
+}
+
+
+/* Tablet and Medium Devices */
+
+@media only screen and (min-width: 768px) {
+    .full-textinput {
+        margin-top: 20px;
+    }
+    /* .label-textinput {} */
+    .ele-textinput {
+        border-radius: 16px;
+        box-shadow: 1px 3px 4px 2px lightblue;
+    }
+}
+
+
+/* LabTop and Desktop Devices */
+
+@media only screen and (min-width: 992px) {
+    /* .full-textinput {}
+    .label-textinput {}
+    .ele-textinput {} */
+}
+
+
+/* Large Laptops and Desktop */
+
+@media only screen and (min-width: 1200px) {
+    .full-textinput {
+        margin-top: 20px;
+    }
+    /* .label-textinput {} */
+    .ele-textinput {
+        border-radius: 16px;
+        box-shadow: 1px 3px 4px 2px lightblue;
+    }
+}
+
+.required-color {
+    color: red;
+}

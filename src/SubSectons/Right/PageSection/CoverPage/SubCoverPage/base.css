@@ -1,0 +1,95 @@
+/* For Small Devices */
+
+@media only screen and (max-width:600px) {
+    .basepanel {
+        width: 20%;
+    }
+    .basepanel-left {
+        float: left;
+        align-self: flex-start;
+        margin-left: 65px;
+    }
+    /* End of Sub Base Panel (Left) */
+    /* ----------------------------------------------------- */
+    /* Sub Base Panel (Right) */
+    .basepanel-right {
+        float: right;
+        align-self: flex-end;
+        margin-right: 45px;
+    }
+}
+
+
+/* Tablet and Medium Devices */
+
+@media only screen and (min-width: 768px) {
+    .basepanel {
+        width: 20%;
+    }
+    /* End of Main Base Panel */
+    /* ------------------------------------------------------ */
+    /* Sub Base Panel (Left) */
+    .basepanel-left {
+        float: left;
+        align-self: flex-start;
+        margin-left: 95px;
+    }
+    /* End of Sub Base Panel (Left) */
+    /* ----------------------------------------------------- */
+    /* Sub Base Panel (Right) */
+    .basepanel-right {
+        float: right;
+        align-self: flex-end;
+        margin-right: 10px;
+    }
+}
+
+
+/* LabTop and Desktop Devices */
+
+@media only screen and (min-width: 992px) {
+    .basepanel {
+        width: 20%;
+    }
+    /* End of Main Base Panel */
+    /* ------------------------------------------------------ */
+    /* Sub Base Panel (Left) */
+    .basepanel-left {
+        float: left;
+        /* align-self: flex-start; */
+        margin-left: 65px;
+    }
+    /* End of Sub Base Panel (Left) */
+    /* ----------------------------------------------------- */
+    /* Sub Base Panel (Right) */
+    .basepanel-right {
+        float: right;
+        align-self: flex-end;
+        margin-right: 25px;
+    }
+}
+
+
+/* Large Laptops and Desktop */
+
+@media only screen and (min-width: 1200px) {
+    .basepanel {
+        width: 20%;
+    }
+    /* End of Main Base Panel */
+    /* ------------------------------------------------------ */
+    /* Sub Base Panel (Left) */
+    .basepanel-left {
+        float: left;
+        /* align-self: flex-start; */
+        margin-left: 65px;
+    }
+    /* End of Sub Base Panel (Left) */
+    /* ----------------------------------------------------- */
+    /* Sub Base Panel (Right) */
+    .basepanel-right {
+        float: right;
+        align-self: flex-end;
+        margin-right: 25px;
+    }
+}

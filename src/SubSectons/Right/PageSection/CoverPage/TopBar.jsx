@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { BroadCast, User } from "../../../../Layouts/SvgFiles";
-
+import "./topbar.css";
 class TopBar extends Component {
   render() {
     return (

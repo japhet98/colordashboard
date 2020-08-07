@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 // import SideCircle from "../SubSectons/Right/SideCircle";
 import MainPage from "../SubSectons/Right/MainPage";
-
+import "./rightsection.css";
 class RightSection extends Component {
   render() {
     return (

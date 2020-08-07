@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import "./layout.css";
 class AppLayout extends Component {
   render() {
     return (

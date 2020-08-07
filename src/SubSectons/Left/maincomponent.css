@@ -1,0 +1,33 @@
+/* For Small Devices */
+
+@media only screen and (max-width:600px) {}
+
+
+/* Tablet and Medium Devices */
+
+@media only screen and (min-width: 768px) {
+    .maincomponetright-image {
+        padding-right: -10px;
+        width: 16px;
+    }
+    .maincomponetright-text {
+        margin-left: 20px;
+        /* width: 0%; */
+    }
+    .maincomponetright-text a {
+        text-decoration: none;
+        color: black;
+        /* margin-left: 15px; */
+        /* width: 0%; */
+    }
+}
+
+
+/* LabTop and Desktop Devices */
+
+@media only screen and (min-width: 992px) {}
+
+
+/* Large Laptops and Desktop */
+
+@media only screen and (min-width: 1200px) {}

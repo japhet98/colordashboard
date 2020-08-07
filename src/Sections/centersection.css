@@ -1,0 +1,92 @@
+/* For Small Devices */
+
+@media only screen and (max-width:600px) {
+    .center-section h1 {
+        text-align: center;
+    }
+}
+
+
+/* Tablet and Medium Devices */
+
+@media only screen and (min-width: 768px) {
+    .tablet-mode .center-section {
+        padding-top: 50px;
+        padding-bottom: 20px;
+        /* padding-right: 10px; */
+        /* padding-left: 0px; */
+        margin-left: 80px;
+        margin-bottom: 5px;
+        border-top-right-radius: 0px;
+        /* background-color: #e6e6e6; */
+        box-shadow: 12px 5px 7px 2px lightgray;
+        /* margin-top: 10px; */
+        background-color: #f0f5f5;
+        border-radius: 30px;
+        width: 100%;
+        align-content: space-around;
+        /* align-self: center; */
+        /* text-align: center; */
+    }
+    .tablet-mode .center-section h1 {
+        align-self: flex-start;
+        margin-left: 20px;
+        margin-top: -30px;
+    }
+}
+
+
+/* LabTop and Desktop Devices */
+
+@media only screen and (min-width: 992px) {
+    .center-section {
+        padding-top: 50px;
+        padding-bottom: 40px;
+        padding-right: 50px;
+        padding-left: 50px;
+        margin-left: 50px;
+        margin-bottom: 10px;
+        border-top-right-radius: 0px;
+        background-color: #e6e6e6;
+        box-shadow: 12px 5px 7px 2px lightgray;
+        margin-top: 10px;
+        /* background-color: #f0f5f5; */
+        border-radius: 30px;
+        /* width: 100%; */
+        align-content: space-around;
+        /* align-self: center; */
+        /* text-align: center; */
+    }
+    .center-section h1 {
+        align-self: flex-start;
+        margin-left: 20px;
+    }
+}
+
+
+/* Large Laptops and Desktop */
+
+@media only screen and (min-width: 1200px) {
+    .center-section {
+        padding-top: 50px;
+        padding-bottom: 0px;
+        padding-right: 50px;
+        padding-left: 50px;
+        margin-left: 50px;
+        /* margin-bottom: 35px; */
+        border-top-right-radius: 0px;
+        background-color: #e6e6e6;
+        box-shadow: 12px 5px 7px 2px lightgray;
+        /* margin-top: 10px; */
+        /* background-color: #f0f5f5; */
+        border-radius: 30px;
+        /* width: 100%; */
+        align-content: space-around;
+        /* align-self: center; */
+        /* text-align: center; */
+    }
+    .center-section h1 {
+        align-self: flex-start;
+        margin-left: 20px;
+    }
+}

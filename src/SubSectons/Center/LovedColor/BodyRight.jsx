@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import "./bodyright.css";
 class BodyRight extends Component {
   render() {
     return (

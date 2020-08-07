@@ -1,0 +1,53 @@
+/* For Small Devices */
+
+@media only screen and (max-width:600px) {}
+
+
+/* Tablet and Medium Devices */
+
+@media only screen and (min-width: 768px) {}
+
+
+/* LabTop and Desktop Devices */
+
+@media only screen and (min-width: 992px) {
+    .navbar-center {
+        /* background-color: red; */
+        margin-left: -50px;
+    }
+    .navbar-center nav ul {
+        /* background-color: red; */
+        text-align: center;
+        margin-left: 80px;
+    }
+    .navbar-center ul li {
+        padding-right: 20px;
+    }
+}
+
+
+/* Large Laptops and Desktop */
+
+@media only screen and (min-width: 1200px) {
+    .navbar-center {
+        /* background-color: red; */
+        margin-left: -50px;
+    }
+    .navbar-center nav ul {
+        /* background-color: red; */
+        text-align: center;
+        margin-left: 80px;
+    }
+    .navbar-center ul li {
+        padding-right: 20px;
+    }
+}
+
+.navigation::hover {
+    box-shadow: black;
+    color: "black";
+    border-radius: "14px";
+    border-color: "white";
+    background-color: "white";
+    border-style: solid white;
+}

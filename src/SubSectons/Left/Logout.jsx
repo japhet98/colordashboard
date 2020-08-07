@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import icon from "../../Asset/icons/svg/sign-out-option.svg";
 import profile from "../../Asset/images/profile.jpg";
 // import MainComponent from "./MainComponent";
+import "./logout.css";
 class Logout extends Component {
   render() {
     return (

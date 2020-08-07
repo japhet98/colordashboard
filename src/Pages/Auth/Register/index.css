@@ -1,0 +1,71 @@
+/* For Small Devices */
+
+@media only screen and (max-width:600px) {
+    .register-card {
+        padding: 30px;
+        /* margin-left: 200px; */
+        /* margin-right: 200px;  */
+        margin-top: 20px;
+        margin-bottom: 10px;
+        border-radius: 20px;
+        box-shadow: 1px 3px 4px 1px lightblue;
+    }
+    .registered {
+        margin-left: 10px;
+    }
+    .btn-container {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 80px;
+    }
+}
+
+
+/* Tablet and Medium Devices */
+
+@media only screen and (min-width: 768px) {
+    .register-card {
+        padding: 40px;
+        margin-top: 10px;
+        border-radius: 20px;
+        box-shadow: 1px 3px 4px 1px lightblue;
+        margin-bottom: 10px;
+    }
+    .registered {
+        margin-left: 180px;
+    }
+    .btn-container {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 200px;
+    }
+}
+
+
+/* LabTop and Desktop Devices */
+
+@media only screen and (min-width: 992px) {
+    /* .register-card {} */
+}
+
+
+/* Large Laptops and Desktop */
+
+@media only screen and (min-width: 1200px) {
+    .register-card {
+        padding: 50px;
+        margin-left: 200px;
+        margin-right: 200px;
+        margin-top: 10px;
+        border-radius: 20px;
+        box-shadow: 1px 3px 4px 1px lightblue;
+    }
+    .registered {
+        margin-left: 180px;
+    }
+    .btn-container {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 200px;
+    }
+}

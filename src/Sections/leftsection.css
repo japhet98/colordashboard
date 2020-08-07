@@ -1,0 +1,43 @@
+/* For Small Devices */
+
+@media only screen and (max-width:600px) {
+    .left-section {
+        margin-top: -10px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 30px;
+    }
+}
+
+
+/* Tablet and Medium Devices */
+
+@media only screen and (min-width: 768px) {
+    .tablet-mode .left-section {
+        margin-top: 20px;
+        margin-left: 20px;
+        padding: 50px;
+    }
+    .top-card {
+        border-radius: 30px;
+        box-shadow: 3px 2px 3px 8px lightgray;
+    }
+}
+
+
+/* LabTop and Desktop Devices */
+
+@media only screen and (min-width: 992px) {
+    .left-section {
+        margin-top: 20px;
+    }
+}
+
+
+/* Large Laptops and Desktop */
+
+@media only screen and (min-width: 1200px) {
+    .left-section {
+        margin-top: 20px;
+    }
+}

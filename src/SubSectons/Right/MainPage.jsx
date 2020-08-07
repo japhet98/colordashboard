@@ -5,7 +5,7 @@ import StaticPage from "./StaticPage";
 import { ArrowLeft, ArrowRight } from "../../Layouts/SvgFiles";
 import Pagination from "../Center/Pallete/Pagination";
 import SideCircle from "./SideCircle";
-
+import "./mainpage.css";
 class MainPage extends Component {
   constructor(props) {
     super(props);
@@ -40,8 +40,33 @@ class MainPage extends Component {
           <div className="col-lg-3 col-sm 3 d-none d-lg-block">
             <StaticPage />
           </div>
+          <div
+            className="desktopmobile-mode"
+            style={{
+              marginBottom: "-8px",
+              marginTop: "5px",
+              marginLeft: "270px",
+            }}
+          >
+            <Pagination
+              adonClass=" text-center"
+              postsPerPage={this.state.postsPerPage}
+              totalPosts={pages ? pages.length : 0}
+              paginate={paginate}
+              pageTab={<ArrowRight />}
+              altTab={<ArrowLeft />}
+            />
+          </div>
+        </div>
+        <div
+          className="tablet-mode"
+          style={{
+            marginBottom: "-8px",
+            marginTop: "5px",
+            marginRight: "270px",
+          }}
+        >
           <Pagination
-            style={{ marginBottom: "-8px", marginTop: "5px" }}
             adonClass=" text-center"
             postsPerPage={this.state.postsPerPage}
             totalPosts={pages ? pages.length : 0}

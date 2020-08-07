@@ -5,7 +5,7 @@ import {
   Brightness,
   Envelope,
 } from "../../../Layouts/SvgFiles";
-
+import "./adjustpage.css";
 class AdjustPage extends Component {
   render() {
     return (
