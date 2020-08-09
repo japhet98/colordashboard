@@ -8,7 +8,7 @@
         margin-top: 20px;
         margin-bottom: 10px;
         border-radius: 20px;
-        box-shadow: 1px 3px 4px 1px lightblue;
+        /* box-shadow: 1px 3px 4px 1px lightblue; */
     }
     .registered {
         margin-left: 10px;
@@ -28,7 +28,7 @@
         padding: 40px;
         margin-top: 10px;
         border-radius: 20px;
-        box-shadow: 1px 3px 4px 1px lightblue;
+        /* box-shadow: 1px 3px 4px 1px lightblue; */
         margin-bottom: 10px;
     }
     .registered {
@@ -58,7 +58,7 @@
         margin-right: 200px;
         margin-top: 10px;
         border-radius: 20px;
-        box-shadow: 1px 3px 4px 1px lightblue;
+        /* box-shadow: 1px 3px 4px 1px lightblue; */
     }
     .registered {
         margin-left: 180px;
